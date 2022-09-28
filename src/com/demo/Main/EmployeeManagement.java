@@ -37,13 +37,13 @@ public class EmployeeManagement {
 			
 			employee.setEmpId(28);
 			
-			employee.setEmpFirstName1("Ishita");
+			employee.setEmpFirstName1("VIKESH");
 			
-			employee.setEmpLastName("Malviya");
+			employee.setEmpLastName("Prabhakaran");
 			
-			employee.setEmpEmailAddress11("IM@ford.com");
+			employee.setEmpEmailAddress11("vikeshprabha@ford.com");
 			
-			employee.setEmpId(5000000);
+			employee.setEmpId(89675);
 			
 			String insertEmployee = employeeService.insertEmployee(employee);
 			System.out.println(insertEmployee);
