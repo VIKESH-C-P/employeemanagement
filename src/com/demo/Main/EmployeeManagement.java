@@ -19,6 +19,7 @@ public class EmployeeManagement {
 		EmployeeServiceLayer employeeService = new EmployeeServiceImplementation();
 		
 		System.out.println("Welcome");
+		System.out.println("May I help You");
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter 1 to insert employees");
 		System.out.println("Enter 2 to show employees");
